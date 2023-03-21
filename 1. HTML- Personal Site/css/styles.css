@@ -1,0 +1,23 @@
+body {
+	background-color: #E4DCCF;
+}
+
+hr {
+	border-style: none;
+	border-top-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	height: 2px;
+	width: 100%;
+}
+
+img {
+	max-width: 200px;
+	height: auto;
+}
+
+h1,h3{
+    color: #000000;
+}
+
+
