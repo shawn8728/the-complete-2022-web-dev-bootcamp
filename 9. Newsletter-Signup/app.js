@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
   const url = "https://us8.api.mailchimp.com/3.0/lists/cd8b8e8be8";
   const options = {
     method: "POST",
-    auth: "shawn:d3a68c841fd4a1020d032104195ddf7a-us8",
+    auth: "shawn:2e5aea20dcd183accaa328ccd27a47c5-us8",
   };
 
   const request = https.request(url, options, function (response) {
@@ -64,7 +64,7 @@ app.post("/success", function (req, res) {
   res.redirect("/");
 });
 
-// API key = d3a68c841fd4a1020d032104195ddf7a-us8
+// API key = 2e5aea20dcd183accaa328ccd27a47c5-us8
 // List key = cd8b8e8be8
 
 app.listen(process.env.PORT || 3000, function () {
